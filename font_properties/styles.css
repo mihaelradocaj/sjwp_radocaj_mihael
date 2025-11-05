@@ -1,0 +1,19 @@
+#col{
+    color: coral;
+}
+
+#fs{
+    font-size: 2rem;
+}
+
+#fw{
+    font-weight: 900;
+}
+
+#ta{
+    text-align: right;
+}
+
+html{
+    font-size: 30px;
+}
