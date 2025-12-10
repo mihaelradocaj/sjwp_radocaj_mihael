@@ -1,0 +1,174 @@
+.crv {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    background-color: red;
+    border: solid black;
+}
+
+.pla {
+    width: 500px;
+    height: 150px;
+    background-color: darkblue;
+    position: absolute;
+    top: 75px;
+}
+
+.krug {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 12.5px;
+    left: 182.5px;
+}
+
+.p {
+    background-color: darkblue;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+    border: solid black;
+}
+
+.b1 {
+    height: 300px;
+    width: 80px;
+    position: absolute;
+    left: 150px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.b2 {
+    height: 80px;
+    width: 500px;
+    position: absolute;
+    top: 100px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.c1 {
+    height: 300px;
+    width: 40px;
+    position: absolute;
+    left: 170px;
+    background-color: red;
+    z-index: 3;
+}
+
+.c2 {
+    height: 40px;
+    width: 500px;
+    position: absolute;
+    top: 120px;
+    background-color: red;
+    z-index: 3;
+}
+
+.t {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+    background-color: teal;
+    border: solid black;
+}
+
+.tro {
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: 3;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-left: 250px solid black;
+}
+
+.y {
+    width: 500px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    z-index: 2;
+    background-color: gold
+}
+
+.cr {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+    background-color: red;
+    border: solid black;
+}
+
+.bs {
+    width: 150px;
+    height: 300px;
+    position: absolute;
+    z-index: 2;
+    background-color: white
+}
+
+.bt1 {
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: 3;
+    left: 150px;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 50px solid white;
+}
+
+.bt2 {
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: 3;
+    left: 150px;
+    top: 60px;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 50px solid white;
+}
+
+.bt3 {
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: 3;
+    left: 150px;
+    top: 120px;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 50px solid white;
+}
+
+.bt4 {
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: 3;
+    left: 150px;
+    top: 180px;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 50px solid white;
+}
+
+.bt5 {
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: 3;
+    left: 150px;
+    top: 240px;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 50px solid white;
+}
