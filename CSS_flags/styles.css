@@ -172,3 +172,106 @@
     border-bottom: 30px solid transparent;
     border-left: 50px solid white;
 }
+
+.grun {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+    background-color: #007a5e;
+    border: solid black;
+}
+
+.rot {
+    width: 166.7px;
+    height: 300px;
+    position: absolute;
+    z-index: 2;
+    background-color: #ce1126;
+    left: 166.7px;
+}
+
+.zvijezda {
+    width: 100px;
+    height: 100px;
+    background: gold;
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+    position: absolute;
+    left: 33.35px;
+    top: 100px;
+    z-index: 3;
+}
+
+.yelo {
+    width: 166.7px;
+    height: 300px;
+    position: absolute;
+    z-index: 2;
+    background-color: #fcd116;
+    left: 333.3px;
+}
+
+.crve {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+    background-color: red;
+    border: solid black;
+}
+
+.polm-b {
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    border-radius: 50%;
+    top: 62.5px;
+    left: 100px;
+}
+
+.polm-c {
+    width: 137.5px;
+    height: 137.5px;
+    position: absolute;
+    z-index: 3;
+    background-color: red;
+    border-radius: 50%;
+    top: 81.25px;
+    left: 145px;
+}
+
+.star {
+    width: 75px;
+    height: 75px;
+    background: white;
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+    position: absolute;
+    left: 250px;
+    top: 112.5px;
+    z-index: 4;
+    transform: rotate(-20deg);
+}
