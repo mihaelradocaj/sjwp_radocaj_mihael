@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak 4</title>
+    <style>
+        .sve{
+            border: 2px solid black;
+            width: 400px;
+            height: 400px;
+            margin: auto;
+            position: relative;
+        }
+        .r{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: absolute;
+            transition: transform 2s ease;
+        }
+        .y{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            position: absolute;
+            left: 200px;
+            transition: transform 2s ease;
+        }
+        .b{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            position: absolute;
+            top: 200px;
+            transition: transform 2s ease;
+        }
+        .g{
+            width: 200px;
+            height: 200px;
+            background-color: green;
+            position: absolute;
+            left: 200px;
+            top: 200px;
+            transition: transform 2s ease;
+        }
+        .t{
+            z-index: -785234;
+            text-align: center;
+            margin-top: 150px;
+            font-size: 100px;
+        }
+        .sve:hover .r{
+            transform: rotate(90deg);
+            transform-origin: top left;
+        }
+        .sve:hover .y{
+            transform: rotate(-90deg);
+            transform-origin: top right;
+        }
+        .sve:hover .b{
+            transform: rotate(-90deg);
+            transform-origin: bottom left;
+        }
+        .sve:hover .g{
+            transform: rotate(90deg);
+            transform-origin: bottom right;
+        }
+    </style>
+</head>
+<body>
+    <div class="sve">
+        <div class="r"></div>
+        <div class="y"></div>
+        <div class="g"></div>
+        <div class="b"></div>
+        <p class="t">Hi!</p>
+    </div>
+</body>
+</html>
