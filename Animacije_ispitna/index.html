@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .z1{
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            border-radius: 50%;
+            opacity: 0.3;
+            animation: a1 1.5s ease-out 0s infinite forwards;
+        }
+        @keyframes a1 {
+            0%{
+
+            }
+            50%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0.3;
+            }
+        }
+        .z2{
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            font-size: 2rem;
+            margin-left: -150px;
+            animation: a2 2s ease-out 0s 1 forwards;
+        }
+        @keyframes a2 {
+            0%{
+
+            }
+            100%{
+                transform: translateX(150px);
+            }
+        }
+        .z3{
+            width: 150px;
+            height: 150px;
+            background-color: black;
+            animation: a3 3s linear 0s infinite alternate;
+        }
+        @keyframes a3 {
+            0%{
+
+            }
+            100%{
+                border-radius: 50%;
+            }
+        }
+        .z4{
+            width: 150px;
+            height: 150px;
+            background-color: greenyellow;
+        }
+        .z4:hover{
+            animation: a4 0.4s linear 0s 1 alternate;
+        }
+        @keyframes a4 {
+            0%{
+
+            }
+            100%{
+                transform: rotate(90deg);
+            }
+        }
+        .z5{
+            width: 550px;
+            height: 400px;
+            background-color: gray;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            animation: a5 5s linear 0s infinite forwards;
+        }
+        .z51, .z52, .z53, .z54, .z55{
+            width: 50px;
+            height: 100px;
+            background-color: black;
+        }
+        .z51{
+            margin-left: 50px;
+            animation: on 0.1s linear 0s 1 forwards;
+        }
+        .z52{
+            height: 150px;
+            animation: on 0.1s linear 1s 1 forwards;
+        }
+        .z53{
+            height: 200px;
+            animation: on 0.1s linear 2s 1 forwards;
+        }
+        .z54{
+            height: 250px;
+            animation: on 0.1s linear 3s 1 forwards;
+        }
+        .z55{
+            margin-right: 50px;
+            height: 300px;
+            animation: on 0.1s linear 4s 1 forwards;
+        }
+        @keyframes on {
+            0%{
+
+            }   
+            100%{
+                background-color: green
+            }         
+        }
+        @keyframes a5 {
+            0%{
+
+            }
+            99%{
+
+            }
+            100%{
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Zadatak 1</h1>
+    <div class="z1"></div>
+    <h1>Zadatak 2</h1>
+    <div class="z2">Tekst</div>
+    <h1>Zadatak 3</h1>
+    <div class="z3"></div>
+    <h1>Zadatak 4</h1>
+    <div class="z4"></div>
+    <h1>Zadatak 5</h1>
+    <div class="z5">
+        <div class="z51"></div>
+        <div class="z52"></div>
+        <div class="z53"></div>
+        <div class="z54"></div>
+        <div class="z55"></div>
+    </div>
+</body>
+</html>
