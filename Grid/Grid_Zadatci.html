@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatci Grid</title>
+    <style>
+        .container{
+            display: grid;
+            width: 1000px;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            gap: 50px;
+        }
+        .a{
+            border-radius: 10%;
+            background-color: #131313;
+            color: white;
+            text-align: center;
+            font-size: 10rem;
+            grid-column: span 2;
+        }
+        .b{
+            border-radius: 10%;
+            background-color: #131313;
+            color: white;
+            text-align: center;
+            font-size: 10rem;
+            grid-column: span 3;
+        }
+        .c{
+            border-radius: 10%;
+            background-color: #131313;
+            color: white;
+            text-align: center;
+            font-size: 10rem;
+        }
+        .d{
+            border-radius: 10%;
+            background-color: #131313;
+            color: white;
+            text-align: center;
+            font-size: 10rem;
+            grid-area: 2/2/3/4
+        }
+        .e{
+            border-radius: 10%;
+            background-color: #131313;
+            color: white;
+            text-align: center;
+            font-size: 10rem;
+            order: 2;
+            grid-column: span 5;
+        }
+        .f{
+            border-radius: 10%;
+            background-color: blue;
+            color: white;
+            text-align: center;
+            font-size: 10rem;
+            grid-area: 2/3/3/5;
+            z-index: 1;
+        }
+        .g{
+            border-radius: 10%;
+            background-color: lightblue;
+            color: white;
+            text-align: center;
+            font-size: 10rem;
+            grid-area: 2/4/3/6;
+        }
+        .h{
+            border-radius: 10%;
+            background-color: #131313;
+            color: white;
+            text-align: center;
+            font-size: 10rem;
+        }
+        .i{
+            border-radius: 10%;
+            background-color: #131313;
+            color: white;
+            text-align: center;
+            font-size: 10rem;
+        }
+        .j{
+            border-radius: 10%;
+            background-color: #131313;
+            color: white;
+            text-align: center;
+            font-size: 10rem;
+        }
+        .k{
+            border-radius: 10%;
+            background-color: #131313;
+            color: white;
+            text-align: center;
+            font-size: 10rem;
+        }
+        .l{
+            border-radius: 10%;
+            background-color: #131313;
+            color: white;
+            text-align: center;
+            font-size: 10rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="a">A</div>
+        <div class="b">B</div>
+        <div class="c">C</div>
+        <div class="d">D</div>
+        <div class="e">E</div>
+        <div class="f">F</div>
+        <div class="g">G</div>
+        <!-- <div class="h">H</div>
+        <div class="i">I</div>
+        <div class="j">J</div>
+        <div class="k">K</div>
+        <div class="l">L</div> -->
+    </div>
+</body>
+</html>
