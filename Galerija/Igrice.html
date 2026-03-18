@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija Igrica</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        .navc{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: gray;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            padding-left: 15%;
+        }
+        .navbtn1{
+            padding: 2%;
+            width: 75px;
+            height: 25px;
+            background-color: white;
+            text-align: center;
+            border-radius: 20%;
+        }
+        .navbtn2{
+            padding: 2%;
+            width: 75px;
+            height: 25px;
+            background-color: white;
+            text-align: center;
+            border-radius: 20%;
+        }
+        .navbtn3{
+            padding: 2%;
+            width: 75px;
+            height: 25px;
+            background-color: white;
+            text-align: center;
+            border-radius: 20%;
+        }
+        .moviec{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            gap: 50px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .movie1{
+            border: 5px solid white;
+            grid-row: 1;
+            grid-column: 1;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+        .movie2{
+            border: 5px solid white;
+            grid-row: 1;
+            grid-column: 2;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+        .movie3{
+            border: 5px solid white;
+            grid-row: 1;
+            grid-column: 3;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+        .movie4{
+            border: 5px solid white;
+            grid-row: 1;
+            grid-column: 4;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+        .movie5{
+            border: 5px solid white;
+            grid-row: 1;
+            grid-column: 5;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+        .movie6{
+            border: 5px solid white;
+            grid-row: 2;
+            grid-column: 1;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+        .movie7{
+            border: 5px solid white;
+            grid-row: 2;
+            grid-column: 2;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+        .movie8{
+            border: 5px solid white;
+            grid-row: 2;
+            grid-column: 3;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+        .movie9{
+            border: 5px solid white;
+            grid-row: 2;
+            grid-column: 4;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+        .movie10{
+            border: 5px solid white;
+            grid-row: 2;
+            grid-column: 5;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+        .movie11{
+            border: 5px solid white;
+            grid-row: 3;
+            grid-column: 1;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+        .movie12{
+            border: 5px solid white;
+            grid-row: 3;
+            grid-column: 2;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+        .movie13{
+            border: 5px solid white;
+            grid-row: 3;
+            grid-column: 3;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+        .movie14{
+            border: 5px solid white;
+            grid-row: 3;
+            grid-column: 4;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+        .movie15{
+            border: 5px solid white;
+            grid-row: 3;
+            grid-column: 5;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+        .movie16{
+            border: 5px solid white;
+            grid-row: 4;
+            grid-column: 1;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+        .movie17{
+            border: 5px solid white;
+            grid-row: 4;
+            grid-column: 2;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+        .movie18{
+            border: 5px solid white;
+            grid-row: 4;
+            grid-column: 3;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+        .movie19{
+            border: 5px solid white;
+            grid-row: 4;
+            grid-column: 4;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+        .movie20{
+            border: 5px solid white;
+            grid-row: 4;
+            grid-column: 5;
+            width: 300px;
+            height: 500px;
+            border-radius: 10%;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="navc">
+        <a href="./Filmovi.html"><div class="navbtn1">Filmovi</div></a>
+        <a href="./Serije.html"><div class="navbtn2">Serije</div></a>
+        <a href="./Igrice.html"><div class="navbtn3">Igrice</div></a>
+    </div>
+    <h1 style="color: white;">Igrice</h1>
+    <div class="moviec">
+        <div class="movie1"></div>
+        <div class="movie2"></div>
+        <div class="movie3"></div>
+        <div class="movie4"></div>
+        <div class="movie5"></div>
+        <div class="movie6"></div>
+        <div class="movie7"></div>
+        <div class="movie8"></div>
+        <div class="movie9"></div>
+        <div class="movie10"></div>
+        <div class="movie11"></div>
+        <div class="movie12"></div>
+        <div class="movie13"></div>
+        <div class="movie14"></div>
+        <div class="movie15"></div>
+        <div class="movie16"></div>
+        <div class="movie17"></div>
+        <div class="movie18"></div>
+        <div class="movie19"></div>
+        <div class="movie20"></div>
+    </div>
+</body>
+</html>
