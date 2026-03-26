@@ -57,15 +57,14 @@
             grid-column: 1;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
         }
+        
         .movie2{
             border: 5px solid white;
             grid-row: 1;
             grid-column: 2;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
         }
         .movie3{
             border: 5px solid white;
@@ -73,7 +72,6 @@
             grid-column: 3;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
         }
         .movie4{
             border: 5px solid white;
@@ -81,7 +79,6 @@
             grid-column: 4;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
         }
         .movie5{
             border: 5px solid white;
@@ -89,7 +86,6 @@
             grid-column: 5;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
         }
         .movie6{
             border: 5px solid white;
@@ -97,7 +93,6 @@
             grid-column: 1;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
         }
         .movie7{
             border: 5px solid white;
@@ -105,7 +100,6 @@
             grid-column: 2;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
         }
         .movie8{
             border: 5px solid white;
@@ -113,7 +107,6 @@
             grid-column: 3;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
         }
         .movie9{
             border: 5px solid white;
@@ -121,7 +114,6 @@
             grid-column: 4;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
         }
         .movie10{
             border: 5px solid white;
@@ -129,7 +121,6 @@
             grid-column: 5;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
         }
         .movie11{
             border: 5px solid white;
@@ -137,7 +128,6 @@
             grid-column: 1;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
         }
         .movie12{
             border: 5px solid white;
@@ -145,7 +135,6 @@
             grid-column: 2;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
         }
         .movie13{
             border: 5px solid white;
@@ -153,7 +142,6 @@
             grid-column: 3;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
         }
         .movie14{
             border: 5px solid white;
@@ -161,7 +149,6 @@
             grid-column: 4;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
         }
         .movie15{
             border: 5px solid white;
@@ -169,7 +156,6 @@
             grid-column: 5;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
         }
         .movie16{
             border: 5px solid white;
@@ -177,7 +163,6 @@
             grid-column: 1;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
         }
         .movie17{
             border: 5px solid white;
@@ -185,7 +170,6 @@
             grid-column: 2;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
         }
         .movie18{
             border: 5px solid white;
@@ -193,7 +177,6 @@
             grid-column: 3;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
         }
         .movie19{
             border: 5px solid white;
@@ -201,7 +184,6 @@
             grid-column: 4;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
         }
         .movie20{
             border: 5px solid white;
@@ -209,7 +191,17 @@
             grid-column: 5;
             width: 300px;
             height: 500px;
-            border-radius: 10%;
+        }
+        .slika:hover{
+            animation: Fade 0.2s linear 0s 1 forwards;
+        }
+        @keyframes Fade{
+            0%{
+                opacity: 100%;
+            }
+            100%{
+                opacity: 20%;
+            }
         }
     </style>
 </head>
@@ -221,26 +213,66 @@
     </div>
     <h1 style="color: white;">Serije</h1>
     <div class="moviec">
-        <div class="movie1"></div>
-        <div class="movie2"></div>
-        <div class="movie3"></div>
-        <div class="movie4"></div>
-        <div class="movie5"></div>
-        <div class="movie6"></div>
-        <div class="movie7"></div>
-        <div class="movie8"></div>
-        <div class="movie9"></div>
-        <div class="movie10"></div>
-        <div class="movie11"></div>
-        <div class="movie12"></div>
-        <div class="movie13"></div>
-        <div class="movie14"></div>
-        <div class="movie15"></div>
-        <div class="movie16"></div>
-        <div class="movie17"></div>
-        <div class="movie18"></div>
-        <div class="movie19"></div>
-        <div class="movie20"></div>
+        <div class="movie1">
+            <a href="https://www.imdb.com/title/tt7150060/"><img src="./shows/img1.jpg" alt="Find Me In Paris" width="300px" height="500px" class="slika"></a>
+        </div>
+        <div class="movie2">
+            <a href="https://www.imdb.com/title/tt0108778/"><img src="./shows/img2.jpg" alt="Friends" width="300px" height="500px" class="slika"></a>
+        </div>
+        <div class="movie3">
+            <a href="https://www.imdb.com/title/tt0944947/"><img src="./shows/img3.jpg" alt="Game Of Thrones" width="300px" height="500px" class="slika"></a>
+        </div>
+        <div class="movie4">
+            <a href="https://www.imdb.com/title/tt0903747/"><img src="./shows/img4.jpg" alt="Breaking Bad" width="300px" height="500px" class="slika"></a>
+        </div>
+        <div class="movie5">
+            <a href="https://www.imdb.com/title/tt7366338/"><img src="./shows/img5.jpg" alt="Chernobyl" width="300px" height="500px" class="slika"></a>
+        </div>
+        <div class="movie6">
+            <a href="https://www.imdb.com/title/tt4574334/"><img src="./shows/img6.jpg" alt="Stranger Things" width="300px" height="500px" class="slika"></a>
+        </div>
+        <div class="movie7">
+            <a href="https://www.imdb.com/title/tt5180504/"><img src="./shows/img7.jpg" alt="The Witcher" width="300px" height="500px" class="slika"></a>
+        </div>
+        <div class="movie8">
+            <a href="https://www.imdb.com/title/tt0898266/"><img src="./shows/img8.jpg" alt="The Big Bang Theory" width="300px" height="500px" class="slika"></a>
+        </div>
+        <div class="movie9">
+            <a href="https://www.imdb.com/title/tt1442437/"><img src="./shows/img9.jpg" alt="Modern Family" width="300px" height="500px" class="slika"></a>
+        </div>
+        <div class="movie10">
+            <a href="https://www.imdb.com/title/tt13443470/"><img src="./shows/img10.jpg" alt="Wednesday" width="300px" height="500px" class="slika"></a>
+        </div>
+        <div class="movie11">
+            <a href="https://www.imdb.com/title/tt10919420/"><img src="./shows/img11.jpg" alt="Squid Game" width="300px" height="500px" class="slika"></a>
+        </div>
+        <div class="movie12">
+            <a href="https://www.imdb.com/title/tt0106064/"><img src="./shows/img12.jpg" alt="Power Rangers" width="300px" height="500px" class="slika"></a>
+        </div>
+        <div class="movie13">
+            <a href="https://www.imdb.com/title/tt1572318/"><img src="./shows/img13.jpg" alt="Super Sentai" width="300px" height="500px" class="slika"></a>
+        </div>
+        <div class="movie14">
+            <a href="https://www.imdb.com/title/tt0441773/"><img src="./shows/img15.jpg" alt="Kung Fu Panda" width="300px" height="500px" class="slika"></a>
+        </div>
+        <div class="movie15">
+            <a href="https://www.imdb.com/title/tt28689687/"><img src="./shows/img14.jpg" alt="Mickey Mouse Clubhouse" width="300px" height="500px" class="slika"></a>
+        </div>
+        <div class="movie16">
+            <a href="https://www.imdb.com/title/tt2442560/"><img src="./shows/img16.jpg" alt="Peaky Blinders" width="300px" height="500px" class="slika"></a>
+        </div>
+        <div class="movie17">
+            <a href="https://www.imdb.com/title/tt10048342/"><img src="./shows/img17.jpg" alt="The Queen's Gambit" width="300px" height="500px" class="slika"></a>
+        </div>
+        <div class="movie18">
+            <a href="https://www.imdb.com/title/tt0249327/"><img src="./shows/img18.jpg" alt="Yu-gi-oh!" width="300px" height="500px" class="slika"></a>
+        </div>
+        <div class="movie19">
+            <a href="https://www.imdb.com/title/tt2171665/"><img src="./shows/img19.jpg" alt="Violetta" width="300px" height="500px" class="slika"></a>
+        </div>
+        <div class="movie20">
+            <a href="https://www.imdb.com/title/tt0081912/"><img src="./shows/img20.jpg" alt="Only Fools And Horses" width="300px" height="500px" class="slika"></a>
+        </div>
     </div>
 </body>
 </html>
