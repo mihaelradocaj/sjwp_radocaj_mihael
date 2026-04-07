@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadatak</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-rows: idk;
+            justify-content: space-between;
+            height: 100vh;
+            padding: 30px;
+        }
+        .section{
+            height: 50vh;
+            flex: 0 70%;
+            border: 10px solid black;
+        }
+        .container:first-child{
+            height: 40vh;
+            flex: 0 100%;
+            border: 10px solid black;
+        }
+        .container:last-child{
+            height: 50vh;
+            flex: 20%;
+            border: 10px solid black;
+        }
+        .p{
+            font-size: 10rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section><p>A</p></section>
+        <section><p>B</p></section>
+        <section><p>C</p></section>
+    </div>
+</body>
+</html>
