@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: grid;
+        }
+        .pb{
+            background-color: black;
+        }
+        .r{
+            background-color: red;
+        }
+        .b{
+            background-color: dodgerblue;
+        }
+        .db{
+            background-color: darkblue;
+        }
+        .y{
+            background-color: yellow;
+        }
+        .g1{
+            background-color: limegreen;
+        }
+        .g2{
+            background-color: gray;
+        }
+        @media (max-width: 320px){
+            .container{
+                grid-template-columns: 100vw;
+                grid-template-rows: 5vh 5vh 22.5vh 22.5vh 15vh 15vh 15vh;
+            }
+            .pb{
+                grid-row: 1;
+                grid-column: 1;
+            }
+            .r{
+                grid-row: 2;
+                grid-column: 1;
+            }
+            .b{
+                grid-row: 3;
+                grid-column: 1;
+            }
+            .db{
+                grid-row: 4;
+                grid-column: 1;
+            }
+            .y{
+                grid-row: 5;
+                grid-column: 1;
+            }
+            .g1{
+                grid-row: 6;
+                grid-column: 1;
+            }
+            .g2{
+                grid-row: 7;
+                grid-column: 1;
+            }
+        }
+        @media (min-width: 321px) and (max-width: 768px){
+            .container{
+                grid-template-columns: 25vw 50vw 25vw;
+                grid-template-rows: 10vh 30vh 30vh 15vh 15vh;
+            }
+            .pb{
+                grid-row: 1;
+                grid-column: 1;
+                width: 100vw;
+            }
+            .r{
+                grid-row: 3;
+                grid-column: 1;
+                height: 100vh;
+                z-index: 999;
+            }
+            .b{
+                grid-row: 2;
+                grid-column: 1;
+                width: 100vw;
+            }
+            .db{
+                grid-row: 3;
+                grid-column: 2;
+                width: 100vw;
+            }
+            .y{
+                grid-row: 4;
+                grid-column: 2;
+                width: 100vw;
+            }
+            .g1{
+                grid-row: 5;
+                grid-column: 2;
+            }
+            .g2{
+                grid-row: 5;
+                grid-column: 3;
+            }
+        }
+        @media (min-width: 769px){
+            .container{
+                grid-template-columns: 25vw 25vw 25vw 25vw;
+                grid-template-rows: 10vh 40vh 10vh 10vh 10vh;
+            }
+            .pb{
+                grid-row: 1;
+                grid-column: 1;
+            }
+            .r{
+                grid-row: 1;
+                grid-column: 2;
+                width: 75vw;
+                z-index: 999;
+            }
+            .b{
+                grid-row: 2;
+                grid-column: 1;
+                width: 100vw;
+            }
+            .db{
+                grid-row: 3;
+                grid-column: 1;
+                width: 50vw;
+                height: 20vh;
+            }
+            .y{
+                grid-row: 5;
+                grid-column: 1;
+                width: 100vw;
+            }
+            .g1{
+                grid-row: 4;
+                grid-column: 4;
+                width: 50vw;
+            }
+            .g2{
+                grid-row: 3;
+                grid-column: 4;
+                width: 50vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="pb"></div>
+        <div class="r"></div>
+        <div class="b"></div>
+        <div class="db"></div>
+        <div class="y"></div>
+        <div class="g1"></div>
+        <div class="g2"></div>
+    </div>
+</body>
+</html>
