@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Flexbox Pricing Table</title>
+    <title>Moja osobna web stranica</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
     <style>
       body {
         font-family: "Sono", sans-serif;
@@ -20,8 +25,82 @@
   </head>
 
   <body>
-    <a href="./zadace/zadaca1.html">Zadaća 1</a><br>
-    <a href="./zadace/zadaca2.html">Zadaća 2</a><br>
-    <a href="Galerija/Filmovi.html">Zadaća 3</a>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Thirteenth navbar example"> <div class="container-fluid"> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" 
+      aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> 
+    </button> <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11"> <a class="navbar-brand col-lg-3 me-0" href="#">
+      Navigacija</a> <ul class="navbar-nav col-lg-6 justify-content-lg-center"> <li class="nav-item"> <a class="nav-link active" 
+        aria-current="page" href="./zadace/zadaca1.html">Zadaća 1</a> </li> <li class="nav-item"> <a class="nav-link" 
+          href="./zadace/zadaca2.html">Zadaća 2</a> </li> <li class="nav-item"> <li class="nav-item"> <a class="nav-link" 
+          href="./Galerija/Filmovi.html">Zadaća 3</a> </li> <a class="nav-link disabled" aria-disabled="true">Zadaća 4</a> </li> 
+          <li class="nav-item dropdown"> <a class="nav-link 
+            dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a> <ul class="dropdown-menu"> <li>
+              <a class="dropdown-item" href="./zadace/ozadaci1.html">O zadaći 1</a></li> <li><a class="dropdown-item" 
+                href="./zadace/pgnotfnd.html">Page not found stranica</a></li> </ul> </li> </ul> <div class="d-lg-flex col-lg-3 
+                justify-content-lg-end"> </div> </div> </div> </nav>
+
+    <!-- Hero -->
+
+     <div class="px-4 py-5 my-5 text-center"> <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" 
+      width="72" height="57"> <h1 class="display-5 fw-bold text-body-emphasis">Moja osobna web stranica</h1> <div class="col-lg-6 mx-auto"> 
+        <p class="lead mb-4">Ovo je moja osobna web stranica za razne stvari od općenitih informacija do nasumičnih ideja koje mi padnu na 
+          pamet. Čitajte i uživajte.
+        </p> <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> </div> </div> 
+      </div>
+
+    <!-- Feature -->
+
+    <div class="container px-4 py-5"> <h2 class="pb-2 border-bottom"></h2> <div class="row row-cols-1 row-cols-md-2 
+      align-items-md-center g-5 py-5"> <div class="col d-flex flex-column align-items-start gap-2"> <h2 class="fw-bold text-body-emphasis">
+        O meni</h2> <p class="text-body-secondary">Nešto malo o tome tko sam ja, što volim, čime se bavim i drugo.</p> </div> 
+          <div class="col"> <div class="row row-cols-1 row-cols-sm-2 g-4">
+          <div class="col d-flex flex-column gap-2"> <div class="feature-icon-small d-inline-flex align-items-center justify-content-center 
+            text-bg-primary bg-gradient fs-4 rounded-3"> <svg class="bi" width="1em" height="1em" aria-hidden="true"> <use 
+              xlink:href="#collection"></use> </svg> </div> <h4 class="fw-semibold mb-0 text-body-emphasis">Opće informacije</h4> 
+              <p class="text-body-secondary">Rođen u Hrvatskoj, 19 godina, učenik Tehniče škole Slavonski Brod.</p> </div> <div class="col 
+              d-flex flex-column gap-2"> <div class="feature-icon-small d-inline-flex align-items-center justify-content-center 
+              text-bg-primary bg-gradient fs-4 rounded-3"> <svg class="bi" width="1em" height="1em" aria-hidden="true"> <use 
+                xlink:href="#gear-fill"></use> </svg> </div> <h4 class="fw-semibold mb-0 text-body-emphasis">Čime se bavim</h4> <p 
+                class="text-body-secondary">Bavim se folklorom gdje na plesne probe idem od mladih nogu.</p> </div> <div class="col d-flex 
+                flex-column gap-2"> <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary 
+                bg-gradient fs-4 rounded-3"> <svg class="bi" width="1em" height="1em" aria-hidden="true"> <use xlink:href="#speedometer">
+                </use> </svg> </div> <h4 class="fw-semibold mb-0 text-body-emphasis">U slobodno vrijeme</h4> <p class="text-body-secondary">
+                  Volim ići u šetnje, crtati, rješavati križaljke i druge stvari.</p> </div> <div class="col d-flex flex-column gap-2"> 
+                    <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient 
+                    fs-4 rounded-3"> <svg class="bi" width="1em" height="1em" aria-hidden="true"> <use xlink:href="#table"></use> </svg> 
+                  </div> <h4 class="fw-semibold mb-0 text-body-emphasis">Društvo</h4> <p class="text-body-secondary">Samo ležerno i 
+                    opušteno, ne partijamo do pola noći ali se ipak zabavimo.
+                  </p> </div> </div> </div> </div> </div>
+
+    <!-- Igrice koje igram -->
+
+    <div class="row mb-1 text-center fs-4 mx-5"> 
+      <div class="col-4 themed-grid-col text-bg-info">Igra</div> 
+      <div class="col-4 themed-grid-col text-bg-info">Igra</div> 
+      <div class="col-4 themed-grid-col text-bg-info">Igra</div> 
+    </div>
+
+    <!-- Odjeljak sa zadaćama -->
+
+    <div class="dz_dio">
+      <h1>Dosadašnje zadaće</h1>
+      <a href="./zadace/zadaca1.html">Zadaća 1</a><br>
+      <a href="./zadace/zadaca2.html">Zadaća 2</a><br>
+      <a href="Galerija/Filmovi.html">Zadaća 3</a>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="container"> <footer class="py-3 my-4"> <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
+      <li class="nav-item"><a href="./zadace/pgnotfnd.html" class="nav-link px-2 text-body-secondary">Početna</a></li> 
+      <li class="nav-item"><a href="./zadace/pgnotfnd.html" class="nav-link px-2 text-body-secondary">Svojstva</a></li> 
+      <li class="nav-item"><a href="./zadace/pgnotfnd.html" class="nav-link px-2 text-body-secondary">Plaćanje</a></li> 
+      <li class="nav-item"><a href="./zadace/pgnotfnd.html" class="nav-link px-2 text-body-secondary">FAQs</a></li> 
+      <li class="nav-item"><a href="./zadace/pgnotfnd.html" class="nav-link px-2 text-body-secondary">O meni</a></li> </ul> 
+      <p class="text-center text-body-secondary">© 2025 Ja, Osoba</p> </footer> </div>
+
   </body>
 </html>
