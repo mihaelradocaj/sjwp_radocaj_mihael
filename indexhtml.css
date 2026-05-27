@@ -1,0 +1,17 @@
+@media (min-width: 1251px) {
+    .responsiveimg{
+        height: 300px;
+    }
+}
+
+@media (max-width: 1250px){
+    .responsiveimg{
+        height: 200px;
+    }
+}
+
+@media (max-width: 600px) {
+    .responsiveimg{
+        height: 100px;
+    }
+}

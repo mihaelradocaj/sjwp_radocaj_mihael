@@ -4,6 +4,7 @@
     <title>Moja osobna web stranica</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./indexhtml.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap"
       rel="stylesheet"
@@ -44,8 +45,8 @@
 
     <!-- Hero -->
 
-     <div class="px-4 py-5 my-5 text-center"> <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" 
-      width="72" height="57"> <h1 class="display-5 fw-bold text-body-emphasis">Moja osobna web stranica</h1> <div class="col-lg-6 mx-auto"> 
+     <div class="px-4 py-5 my-5 text-center"> <img class="d-block mx-auto mb-4" src="./zadace/sjwp_slike/Gigachad.jpg" alt="" 
+      width="450" height="500"> <h1 class="display-5 fw-bold text-body-emphasis">Moja osobna web stranica</h1> <div class="col-lg-6 mx-auto"> 
         <p class="lead mb-4">Ovo je moja osobna web stranica za razne stvari od općenitih informacija do nasumičnih ideja koje mi padnu na 
           pamet. Čitajte i uživajte.
         </p> <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> </div> </div> 
@@ -78,18 +79,85 @@
     <!-- Igrice koje igram -->
 
     <div class="row mb-1 text-center fs-4 mx-5"> 
-      <div class="col-4 themed-grid-col text-bg-info">Igra</div> 
-      <div class="col-4 themed-grid-col text-bg-info">Igra</div> 
-      <div class="col-4 themed-grid-col text-bg-info">Igra</div> 
+      <div class="col-4 themed-grid-col text-bg-info pt-5 pb-5">
+        <h4>PEAK</h4>
+        <img src="./zadace/sjwp_slike/PEAK.jpg" alt="PEAK" class="responsiveimg">
+        <h6>Igra o, vrlo doslovno, penjanju na vrh planine. Zanimljiva priča o putnicima kojima se srušio zrakoplov na obali i penju se
+          do vrha kako bi bakljama dozvali helikopter za spašavanje.
+        </h6>
+        <h6>ELEMENTI:</h6>
+        <h6>- Vrlo zabavno s prijateljima</h6>
+        <h6>- Jeftino na Steam-u</h6>
+        <h6>- Opcija modova</h6>
+      </div> 
+      <div class="col-4 themed-grid-col text-bg-info pt-5 pb-5">
+        <h4>Honkai Star Rail</h4>
+        <img src="./zadace/sjwp_slike/hsr.jpg" alt="HSR" class="responsiveimg">
+        <h6>Turn-based igra gdje se protagonist pridružuje skupini koja putuje svemirskim vlakom i pomaže planetima u potrebi. Igra je 
+          vrlo zabavna i svaki dan se mogu dobiti novi bonusi.
+        </h6>
+        <h6>ELEMENTI:</h6>
+        <h6>- Puno likova</h6>
+        <h6>- Planiranje timova</h6>
+        <h6>- Dnevni i drugi bonusi</h6>
+      </div> 
+      <div class="col-4 themed-grid-col text-bg-info pt-5 pb-5">
+        <h4>Pizza Tower</h4>
+        <img src="./zadace/sjwp_slike/pizzatower.jpg" alt="Pizza" class="responsiveimg">
+        <h6>Igra gdje glavni lik Peppino se kreće kroz dijelove tornja da bi porazio svog protivnika i da bi imao najbolju pizzu. Ono 
+          što je zanimljivo je da je cijeli artstlye igre u Microsoft Paint-u.
+        </h6>
+        <h6>ELEMENTI:</h6>
+        <h6>- Vrlo brzo i puno kontrola, ali zabavno</h6>
+        <h6>- Sve je na temu pizzerije</h6>
+        <h6>- Puno tajni i mini opcionalnih razina</h6>
+      </div> 
     </div>
+    <br>
 
     <!-- Odjeljak sa zadaćama -->
 
-    <div class="dz_dio">
-      <h1>Dosadašnje zadaće</h1>
-      <a href="./zadace/zadaca1.html">Zadaća 1</a><br>
-      <a href="./zadace/zadaca2.html">Zadaća 2</a><br>
-      <a href="Galerija/Filmovi.html">Zadaća 3</a>
+    <div class="dz_dio w-50 mx-auto mb-5">
+      <h1 class="mx-auto w-50">Dosadašnje zadaće</h1>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item mx-auto"><a href="./zadace/zadaca1.html">Zadaća 1</a></li>
+        <li class="list-group-item mx-auto"><a href="./zadace/zadaca2.html">Zadaća 2</a></li>
+        <li class="list-group-item mx-auto"><a href="Galerija/Filmovi.html">Zadaća 3</a></li>
+      </ul>
+    </div>
+
+    <!-- Kontaktirajte me forma -->
+    <div class="form-signin w-50 mx-auto">
+     <form method="get"> 
+      <h1 class="h3 mb-3 fs-4 mx-auto fw-normal w-25">Kontaktirajte me</h1> 
+        <div class="form-floating"> 
+          <input type="text" class="form-control" id="floatingInput" placeholder="Ime"> 
+          <label for="floatingInput">Ime</label> 
+        </div> 
+        <div class="form-floating"> 
+          <input type="email" class="form-control" id="floatingInput" placeholder="Ime@primjer.com"> 
+          <label for="floatingInput">Email</label> 
+        </div> 
+        <div class="form-floating"> 
+          <input type="text" class="form-control" id="floatingInput" placeholder="Poruka"> 
+          <label for="floatingInput">Poruka</label> 
+        </div>
+        <div class="col-md">
+        <div class="form-floating">
+          <select class="form-select" id="floatingSelectGrid">
+            <option selected>27.5.2026</option>
+            <option value="1">26.5.2026</option>
+            <option value="2">25.5.2026</option>
+            <option value="3">24.5.2026</option>
+            <option value="1">23.5.2026</option>
+            <option value="2">22.5.2026</option>
+            <option value="3">21.5.2026</option>
+          </select>
+          <label for="floatingSelectGrid">Select date</label>
+        </div>
+      </div>
+      <button class="btn btn-primary w-100 py-2" type="submit">Pošalji</button>
+      </form>
     </div>
 
     <!-- Footer -->
